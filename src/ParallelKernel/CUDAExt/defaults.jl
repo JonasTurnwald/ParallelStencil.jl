@@ -12,6 +12,7 @@ function get_custream end
 zeros_cuda(arg...)  = @NotLoadedError(ERRMSG_CUDAEXT_NOT_LOADED)
 ones_cuda(arg...)   = @NotLoadedError(ERRMSG_CUDAEXT_NOT_LOADED)
 rand_cuda(arg...)   = @NotLoadedError(ERRMSG_CUDAEXT_NOT_LOADED)
+randn_cuda(arg...)   = @NotLoadedError(ERRMSG_CUDAEXT_NOT_LOADED)
 falses_cuda(arg...) = @NotLoadedError(ERRMSG_CUDAEXT_NOT_LOADED)
 trues_cuda(arg...)  = @NotLoadedError(ERRMSG_CUDAEXT_NOT_LOADED)
 fill_cuda(arg...)   = @NotLoadedError(ERRMSG_CUDAEXT_NOT_LOADED)

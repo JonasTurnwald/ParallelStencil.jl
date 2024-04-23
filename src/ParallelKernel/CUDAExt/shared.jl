@@ -1,5 +1,5 @@
 import ParallelStencil
-import ParallelStencil.ParallelKernel: INT_CUDA, rand_cpu, fill_cpu, construct_cell, check_datatype, rand_cuda, fill_cuda
+import ParallelStencil.ParallelKernel: INT_CUDA, rand_cpu, randn_cpu, fill_cpu, construct_cell, check_datatype, rand_cuda, randn_cuda, fill_cuda
 using ParallelStencil.ParallelKernel.Exceptions
 using CUDA, CellArrays, StaticArrays
 @define_CuCellArray
